@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer sale</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome kit link  -->
+    <script src="https://kit.fontawesome.com/09f856740b.js" crossorigin="anonymous"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="style/style.css">
     <!-- tailwind and daisy ui installment links -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -16,11 +24,13 @@
         <section class="flex justify-center items-center mt-8">
             <!-- banner discription -->
             <div>
-                <h4 class="text-3xl font-medium text-center mb-11 uppercase">---sale fever---</h4>
-                <h2 class="font-bold mb-16 text-6xl">Purchase TK 200 or <br> above & get <span class="text-rose-600">20% off</span></h2>
+                <h4 class="text-3xl font-primary font-medium text-center mb-11 uppercase">---sale fever---</h4>
+                <h2 class="font-bold mb-16 font-primary text-6xl">Purchase TK 200 or <br> above & get <span
+                        class="text-rose-600">20%
+                        off</span></h2>
                 <div class="text-center">
                     <p class="inline text-base font-medium">Use Promo Code</p>
-                <button class="btn btn-secondary font-semibold text-2xl">SELL200</button>
+                    <button class="btn btn-secondary font-primary font-semibold text-2xl">SELL200</button>
                 </div>
             </div>
             <!-- banner image -->
@@ -29,6 +39,66 @@
             </div>
         </section>
     </header>
+    <main class="container mx-auto">
+        <!-- products -->
+
+
+        <!-- this is kitchenware section -->
+        <section class="w-9/12">
+            <h3 class="text-4xl font-semibold">Kitchenware</h3>
+            <!-- card container -->
+            <div class="flex mt-20">
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="images/prod1.png" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <span class="flex">
+                            <i class="fa-solid text-amber-400 fa-star"></i>
+                            <i class="fa-solid text-amber-400 fa-star"></i>
+                            <i class="fa-solid text-amber-400 fa-star"></i>
+                            <i class="fa-regular text-amber-400 fa-star"></i>
+                            <i class="fa-regular text-amber-400 fa-star"></i>
+                        </span>
+                        <h2 class="card-title font-primary text-xl font-semibold">K. Accessories</h2>
+                        <p class="text-gray-500 font-primary  text-xl">39.00 TK</p>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="images/prod2.png" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <span class="flex">
+                            <i class="fa-solid text-amber-400 fa-star"></i>
+                            <i class="fa-solid text-amber-400 fa-star"></i>
+                            <i class="fa-solid text-amber-400 fa-star"></i>
+                            <i class="fa-regular text-amber-400 fa-star"></i>
+                            <i class="fa-regular text-amber-400 fa-star"></i>
+                        </span>
+                        <h2 class="card-title font-primary text-xl font-semibold">K. Accessories</h2>
+                        <p class="text-gray-500 font-primary  text-xl">25.00 TK</p>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="images/prod3.png" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <span class="flex">
+                            <i class="fa-solid text-amber-400 fa-star"></i>
+                            <i class="fa-solid text-amber-400 fa-star"></i>
+                            <i class="fa-solid text-amber-400 fa-star"></i>
+                            <i class="fa-regular text-amber-400 fa-star"></i>
+                            <i class="fa-regular text-amber-400 fa-star"></i>
+                        </span>
+                        <h2 class="card-title font-primary text-xl font-semibold">K. Accessories</h2>
+                        <p class="text-gray-500 font-primary text-xl">49.00 TK</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
