@@ -19,7 +19,6 @@ document.getElementById('card-one-full').addEventListener('click', function(){
     const totalField = parseFloat(totalFieldString);
     const currentTotalField = totalField + cardOnePrice;
     totalFieldElement.innerText = currentTotalField;
-    console.log(typeof currentTotalField);
     if(currentTotalPriceField > 0){
         document.getElementById('make-purchase-button').removeAttribute('disabled');
     }
@@ -171,6 +170,16 @@ document.getElementById('card-six-full').addEventListener('click', function(){
     if(currentTotalPriceField >= 200){
         document.getElementById('apply-button').removeAttribute('disabled');
     }
+})
+
+
+document.getElementById('apply-button').addEventListener('click', function(){
+    const couponCodeField = document.getElementById('coupon-code-field');
+    const couponCode = couponCodeField.value;
+    if(couponCode === 'SELL200'){
+        
+    }
+    
 })
 
 
