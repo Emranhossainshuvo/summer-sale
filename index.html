@@ -49,7 +49,7 @@
                 <h3 class="text-4xl font-primary font-semibold">Kitchenware</h3>
                 <!-- card container -->
                 <div class="lg:flex md:flex md:items-center mt-20">
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div id="card-one-full" class="card w-96 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
                             <img src="images/prod1.png" class="rounded-xl" />
                         </figure>
@@ -61,8 +61,8 @@
                                 <i class="fa-regular text-amber-400 fa-star"></i>
                                 <i class="fa-regular text-amber-400 fa-star"></i>
                             </span>
-                            <h2 class="card-title font-primary text-xl font-semibold">K. Accessories</h2>
-                            <p class="text-gray-500 font-primary text-xl">39.00 TK</p>
+                            <h2 id="card-one-title" class="card-title font-primary text-xl font-semibold">K. Accessories</h2>
+                            <p class="text-gray-500 font-primary text-xl"><span id="card-one-price">39.00</span> TK</p>
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100 shadow-xl">
@@ -77,7 +77,7 @@
                                 <i class="fa-regular text-amber-400 fa-star"></i>
                                 <i class="fa-regular text-amber-400 fa-star"></i>
                             </span>
-                            <h2 class="card-title font-primary text-xl font-semibold">K. Accessories</h2>
+                            <h2 class="card-title font-primary text-xl font-semibold">R. Accessories</h2>
                             <p class="text-gray-500 font-primary  text-xl">25.00 TK</p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                                 <i class="fa-solid text-amber-400 fa-star"></i>
                                 <i class="fa-regular text-amber-400 fa-star"></i>
                             </span>
-                            <h2 class="card-title font-primary text-xl font-semibold">K. Accessories</h2>
+                            <h2 class="card-title font-primary text-xl font-semibold">Home Cooker</h2>
                             <p class="text-gray-500 font-primary text-xl">49.00 TK</p>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
             
             <!-- list for ordered item  -->
             <div class="font-primary font-medium text-2xl mt-11">
-                <ol type="1">
+                <ol id="ordered-list-parent" type="1">
                     <li>home coker</li>
                     <li> Accessories</li>
                     <li> sportsware</li>
@@ -175,7 +175,7 @@
             <!-- div for total price  discount and total price -->
             <div class="flex flex-col mt-6">
                 <ul class="text-2xl font-primary font-medium">
-                    <li class="mb-4">Total price:  <span class="text-gray-400 ps-2">00.00TK</span></li>
+                    <li class="mb-4">Total price:  <span class="text-gray-400 ps-2"><span id="total-price-field">00.00</span>TK</span></li>
                     <li class="mb-4">Discount:  <span class="text-gray-400 ps-2">00.00TK</span></li>
                     <li class="mb-4">Total:  <span class="text-gray-400 ps-2">00.00TK</span></li>
                 </ul>
@@ -186,6 +186,7 @@
     <script>
         
     </script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
