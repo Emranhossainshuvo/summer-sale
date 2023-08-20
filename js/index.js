@@ -14,8 +14,17 @@ document.getElementById('card-one-full').addEventListener('click', function(){
     const totalPriceField = parseFloat(totalPriceString);
     const currentTotalPriceField = cardOnePrice + totalPriceField;
     totalPriceElement.innerText = currentTotalPriceField;
+    const totalFieldElement = document.getElementById('total-field');
+    const totalFieldString = totalFieldElement.innerText;
+    const totalField = parseFloat(totalFieldString);
+    const currentTotalField = totalField + cardOnePrice;
+    totalFieldElement.innerText = currentTotalField;
+    console.log(typeof currentTotalField);
     if(currentTotalPriceField > 0){
         document.getElementById('make-purchase-button').removeAttribute('disabled');
+    }
+    if(currentTotalPriceField >= 200){
+        document.getElementById('apply-button').removeAttribute('disabled');
     }
 })
 // card two interaction
@@ -35,8 +44,16 @@ document.getElementById('card-two-full').addEventListener('click', function(){
     const totalPriceField = parseFloat(totalPriceString);
     const currentTotalPriceField = cardOnePrice + totalPriceField;
     totalPriceElement.innerText = currentTotalPriceField;
+    const totalFieldElement = document.getElementById('total-field');
+    const totalFieldString = totalFieldElement.innerText;
+    const totalField = parseFloat(totalFieldString);
+    const currentTotalField = totalField + cardOnePrice;
+    totalFieldElement.innerText = currentTotalField;
     if(currentTotalPriceField > 0){
         document.getElementById('make-purchase-button').removeAttribute('disabled');
+    }
+    if(currentTotalPriceField >= 200){
+        document.getElementById('apply-button').removeAttribute('disabled');
     }
 })
 // card three interaction
@@ -56,8 +73,16 @@ document.getElementById('card-three-full').addEventListener('click', function(){
     const totalPriceField = parseFloat(totalPriceString);
     const currentTotalPriceField = cardOnePrice + totalPriceField;
     totalPriceElement.innerText = currentTotalPriceField;
+    const totalFieldElement = document.getElementById('total-field');
+    const totalFieldString = totalFieldElement.innerText;
+    const totalField = parseFloat(totalFieldString);
+    const currentTotalField = totalField + cardOnePrice;
+    totalFieldElement.innerText = currentTotalField;
     if(currentTotalPriceField > 0){
         document.getElementById('make-purchase-button').removeAttribute('disabled');
+    }
+    if(currentTotalPriceField >= 200){
+        document.getElementById('apply-button').removeAttribute('disabled');
     }
 })
 // card four interaction
@@ -77,8 +102,16 @@ document.getElementById('card-four-full').addEventListener('click', function(){
     const totalPriceField = parseFloat(totalPriceString);
     const currentTotalPriceField = cardOnePrice + totalPriceField;
     totalPriceElement.innerText = currentTotalPriceField;
+    const totalFieldElement = document.getElementById('total-field');
+    const totalFieldString = totalFieldElement.innerText;
+    const totalField = parseFloat(totalFieldString);
+    const currentTotalField = totalField + cardOnePrice;
+    totalFieldElement.innerText = currentTotalField;
     if(currentTotalPriceField > 0){
         document.getElementById('make-purchase-button').removeAttribute('disabled');
+    }
+    if(currentTotalPriceField >= 200){
+        document.getElementById('apply-button').removeAttribute('disabled');
     }
 })
 // card five interaction
@@ -98,8 +131,16 @@ document.getElementById('card-five-full').addEventListener('click', function(){
     const totalPriceField = parseFloat(totalPriceString);
     const currentTotalPriceField = cardOnePrice + totalPriceField;
     totalPriceElement.innerText = currentTotalPriceField;
+    const totalFieldElement = document.getElementById('total-field');
+    const totalFieldString = totalFieldElement.innerText;
+    const totalField = parseFloat(totalFieldString);
+    const currentTotalField = totalField + cardOnePrice;
+    totalFieldElement.innerText = currentTotalField;
     if(currentTotalPriceField > 0){
         document.getElementById('make-purchase-button').removeAttribute('disabled');
+    }
+    if(currentTotalPriceField >= 200){
+        document.getElementById('apply-button').removeAttribute('disabled');
     }
 })
 // card six interaction
@@ -119,8 +160,16 @@ document.getElementById('card-six-full').addEventListener('click', function(){
     const totalPriceField = parseFloat(totalPriceString);
     const currentTotalPriceField = cardOnePrice + totalPriceField;
     totalPriceElement.innerText = currentTotalPriceField;
+    const totalFieldElement = document.getElementById('total-field');
+    const totalFieldString = totalFieldElement.innerText;
+    const totalField = parseFloat(totalFieldString);
+    const currentTotalField = totalField + cardOnePrice;
+    totalFieldElement.innerText = currentTotalField;
     if(currentTotalPriceField > 0){
         document.getElementById('make-purchase-button').removeAttribute('disabled');
+    }
+    if(currentTotalPriceField >= 200){
+        document.getElementById('apply-button').removeAttribute('disabled');
     }
 })
 
